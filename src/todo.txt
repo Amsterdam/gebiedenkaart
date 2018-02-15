@@ -1,0 +1,6 @@
+- find center of Amsterdam
+- choose projection / bounds
+- Think about RD versus WGS84
+
+
+WFS, dank aan Eelke, https://map.data.amsterdam.nl/maps/gebieden?request=getfeature&version=1.1.0&service=wfs&outputformat=geojson&typename=stadsdeel
