@@ -8,7 +8,7 @@
 <script>
 import util from '../services/util'
 // import geojsonExtent from '@mapbox/geojson-extent'
-import Choropleth from './Choropleth'
+import Choropleth from './Choropleth2'
 import Vue from 'vue'
 
 export default {
@@ -19,9 +19,9 @@ export default {
     }
   },
   async mounted () {
-    let geojson = await this.loadWFS()
-    /* console.log('Loading map data')
-    let geojson = await this.loadGeoJSON() */
+    /* let geojson = await this.loadWFS() */
+    console.log('Loading map data')
+    let geojson = await this.loadGeoJSON()
     console.log(geojson)
     this.geojson = geojson
 
@@ -81,7 +81,7 @@ export default {
       )
 
       let kvs = data.map(
-        d => [d.gebiedcode15.slice(1), d.waarde]
+        d => [d.gebiedcode15, d.waarde]
       )
       return kvs
     },
