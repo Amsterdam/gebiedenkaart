@@ -1,0 +1,482 @@
+BRT_NAAM;BRT_CODE;BRT_VOLLCODE;BCE_NAAM;BCE_CODE;BCE_VOLLCODE;SDL_NAAM;SDL_CODE;GGW_NAAM;GGW_CODE
+Kop Zeedijk;a;A00a;Burgwallen-Oude Zijde;00;A00;Centrum;A;Centrum-West;DX01
+Oude Kerk e.o.;b;A00b;Burgwallen-Oude Zijde;00;A00;Centrum;A;Centrum-West;DX01
+Burgwallen Oost;c;A00c;Burgwallen-Oude Zijde;00;A00;Centrum;A;Centrum-West;DX01
+Nes e.o.;d;A00d;Burgwallen-Oude Zijde;00;A00;Centrum;A;Centrum-West;DX01
+BG-terrein e.o.;e;A00e;Burgwallen-Oude Zijde;00;A00;Centrum;A;Centrum-West;DX01
+Stationsplein e.o.;a;A01a;Burgwallen-Nieuwe Zijde;01;A01;Centrum;A;Centrum-West;DX01
+Hemelrijk;b;A01b;Burgwallen-Nieuwe Zijde;01;A01;Centrum;A;Centrum-West;DX01
+Nieuwendijk Noord;c;A01c;Burgwallen-Nieuwe Zijde;01;A01;Centrum;A;Centrum-West;DX01
+Spuistraat Noord;d;A01d;Burgwallen-Nieuwe Zijde;01;A01;Centrum;A;Centrum-West;DX01
+Nieuwe Kerk e.o.;e;A01e;Burgwallen-Nieuwe Zijde;01;A01;Centrum;A;Centrum-West;DX01
+Spuistraat Zuid;f;A01f;Burgwallen-Nieuwe Zijde;01;A01;Centrum;A;Centrum-West;DX01
+Begijnhofbuurt;g;A01g;Burgwallen-Nieuwe Zijde;01;A01;Centrum;A;Centrum-West;DX01
+Kalverdriehoek;h;A01h;Burgwallen-Nieuwe Zijde;01;A01;Centrum;A;Centrum-West;DX01
+Langestraat e.o.;a;A02a;Grachtengordel-West;02;A02;Centrum;A;Centrum-West;DX01
+Leliegracht e.o.;b;A02b;Grachtengordel-West;02;A02;Centrum;A;Centrum-West;DX01
+Felix Meritisbuurt;c;A02c;Grachtengordel-West;02;A02;Centrum;A;Centrum-West;DX01
+Leidsegracht Noord;d;A02d;Grachtengordel-West;02;A02;Centrum;A;Centrum-West;DX01
+Spiegelbuurt;a;A03a;Grachtengordel-Zuid;03;A03;Centrum;A;Centrum-Oost;DX02
+Gouden Bocht;b;A03b;Grachtengordel-Zuid;03;A03;Centrum;A;Centrum-Oost;DX02
+Van Loonbuurt;c;A03c;Grachtengordel-Zuid;03;A03;Centrum;A;Centrum-Oost;DX02
+Amstelveldbuurt;d;A03d;Grachtengordel-Zuid;03;A03;Centrum;A;Centrum-Oost;DX02
+Rembrandtpleinbuurt;e;A03e;Grachtengordel-Zuid;03;A03;Centrum;A;Centrum-Oost;DX02
+Reguliersbuurt;f;A03f;Grachtengordel-Zuid;03;A03;Centrum;A;Centrum-Oost;DX02
+Leidsegracht Zuid;g;A03g;Grachtengordel-Zuid;03;A03;Centrum;A;Centrum-Oost;DX02
+Oosterdokseiland;a;A04a;Nieuwmarkt/Lastage;04;A04;Centrum;A;Centrum-Oost;DX02
+Scheepvaarthuisbuurt;b;A04b;Nieuwmarkt/Lastage;04;A04;Centrum;A;Centrum-Oost;DX02
+Rapenburg;c;A04c;Nieuwmarkt/Lastage;04;A04;Centrum;A;Centrum-Oost;DX02
+Lastage;d;A04d;Nieuwmarkt/Lastage;04;A04;Centrum;A;Centrum-Oost;DX02
+Nieuwmarkt;e;A04e;Nieuwmarkt/Lastage;04;A04;Centrum;A;Centrum-Oost;DX02
+Uilenburg;f;A04f;Nieuwmarkt/Lastage;04;A04;Centrum;A;Centrum-Oost;DX02
+Valkenburg;g;A04g;Nieuwmarkt/Lastage;04;A04;Centrum;A;Centrum-Oost;DX02
+Zuiderkerkbuurt;h;A04h;Nieuwmarkt/Lastage;04;A04;Centrum;A;Centrum-Oost;DX02
+Waterloopleinbuurt;i;A04i;Nieuwmarkt/Lastage;04;A04;Centrum;A;Centrum-Oost;DX02
+Westerdokseiland;a;A05a;Haarlemmerbuurt;05;A05;Centrum;A;Centrum-West;DX01
+Haarlemmerbuurt Oost;b;A05b;Haarlemmerbuurt;05;A05;Centrum;A;Centrum-West;DX01
+Haarlemmerbuurt West;c;A05c;Haarlemmerbuurt;05;A05;Centrum;A;Centrum-West;DX01
+Westelijke eilanden;d;A05d;Haarlemmerbuurt;05;A05;Centrum;A;Centrum-West;DX01
+Planciusbuurt Noord;f;A05f;Haarlemmerbuurt;05;A05;Centrum;A;Centrum-West;DX01
+Planciusbuurt Zuid;g;A05g;Haarlemmerbuurt;05;A05;Centrum;A;Centrum-West;DX01
+Driehoekbuurt;a;A06a;Jordaan;06;A06;Centrum;A;Centrum-West;DX01
+Bloemgrachtbuurt;c;A06c;Jordaan;06;A06;Centrum;A;Centrum-West;DX01
+Marnixbuurt Noord;d;A06d;Jordaan;06;A06;Centrum;A;Centrum-West;DX01
+Zaagpoortbuurt;e;A06e;Jordaan;06;A06;Centrum;A;Centrum-West;DX01
+Marnixbuurt Midden;f;A06f;Jordaan;06;A06;Centrum;A;Centrum-West;DX01
+Elandsgrachtbuurt;g;A06g;Jordaan;06;A06;Centrum;A;Centrum-West;DX01
+Passeerdersgrachtbuurt;h;A06h;Jordaan;06;A06;Centrum;A;Centrum-West;DX01
+Groenmarktkadebuurt;i;A06i;Jordaan;06;A06;Centrum;A;Centrum-West;DX01
+Marnixbuurt Zuid;j;A06j;Jordaan;06;A06;Centrum;A;Centrum-West;DX01
+Anjeliersbuurt Noord;k;A06k;Jordaan;06;A06;Centrum;A;Centrum-West;DX01
+Anjeliersbuurt Zuid;l;A06l;Jordaan;06;A06;Centrum;A;Centrum-West;DX01
+Leidsebuurt Noordwest;a;A07a;De Weteringschans;07;A07;Centrum;A;Centrum-Oost;DX02
+Leidsebuurt Zuidwest;b;A07b;De Weteringschans;07;A07;Centrum;A;Centrum-Oost;DX02
+Leidsebuurt Noordoost;c;A07c;De Weteringschans;07;A07;Centrum;A;Centrum-Oost;DX02
+Leidsebuurt Zuidoost;d;A07d;De Weteringschans;07;A07;Centrum;A;Centrum-Oost;DX02
+Weteringbuurt;e;A07e;De Weteringschans;07;A07;Centrum;A;Centrum-Oost;DX02
+Den Texbuurt;f;A07f;De Weteringschans;07;A07;Centrum;A;Centrum-Oost;DX02
+Utrechtsebuurt Zuid;g;A07g;De Weteringschans;07;A07;Centrum;A;Centrum-Oost;DX02
+Frederikspleinbuurt;h;A07h;De Weteringschans;07;A07;Centrum;A;Centrum-Oost;DX02
+Weesperbuurt;a;A08a;Weesperbuurt/Plantage;08;A08;Centrum;A;Centrum-Oost;DX02
+Sarphatistrook;b;A08b;Weesperbuurt/Plantage;08;A08;Centrum;A;Centrum-Oost;DX02
+de Plantage;d;A08d;Weesperbuurt/Plantage;08;A08;Centrum;A;Centrum-Oost;DX02
+Alexanderplein e.o.;e;A08e;Weesperbuurt/Plantage;08;A08;Centrum;A;Centrum-Oost;DX02
+Marine-Etablissement;a;A09a;Oostelijke Eilanden/Kadijken;09;A09;Centrum;A;Centrum-Oost;DX02
+Kattenburg;b;A09b;Oostelijke Eilanden/Kadijken;09;A09;Centrum;A;Centrum-Oost;DX02
+Wittenburg;c;A09c;Oostelijke Eilanden/Kadijken;09;A09;Centrum;A;Centrum-Oost;DX02
+Oostenburg;d;A09d;Oostelijke Eilanden/Kadijken;09;A09;Centrum;A;Centrum-Oost;DX02
+Czaar Peterbuurt;e;A09e;Oostelijke Eilanden/Kadijken;09;A09;Centrum;A;Centrum-Oost;DX02
+Het Funen;f;A09f;Oostelijke Eilanden/Kadijken;09;A09;Centrum;A;Centrum-Oost;DX02
+Kazernebuurt;h;A09h;Oostelijke Eilanden/Kadijken;09;A09;Centrum;A;Centrum-Oost;DX02
+Kadijken;i;A09i;Oostelijke Eilanden/Kadijken;09;A09;Centrum;A;Centrum-Oost;DX02
+Coenhaven/Mercuriushaven;a;B10a;Westelijk Havengebied;10;B10;Westpoort;B;;
+Alfa-driehoek;b;B10b;Westelijk Havengebied;10;B10;Westpoort;B;;
+Petroleumhaven;c;B10c;Westelijk Havengebied;10;B10;Westpoort;B;;
+Westhaven Noord;d;B10d;Westelijk Havengebied;10;B10;Westpoort;B;;
+Vervoerscentrum;e;B10e;Westelijk Havengebied;10;B10;Westpoort;B;;
+Amerikahaven;f;B10f;Westelijk Havengebied;10;B10;Westpoort;B;;
+Afrikahaven;g;B10g;Westelijk Havengebied;10;B10;Westpoort;B;;
+Westhaven Zuid;h;B10h;Westelijk Havengebied;10;B10;Westpoort;B;;
+Houthavens West;a;E12a;Houthavens;12;E12;West;E;Westerpark;DX03
+Houthavens Oost;b;E12b;Houthavens;12;E12;West;E;Westerpark;DX03
+Zeeheldenbuurt;a;E13a;Spaarndammer- en Zeeheldenbuurt;13;E13;West;E;Westerpark;DX03
+Spaarndammerbuurt Noordoost;b;E13b;Spaarndammer- en Zeeheldenbuurt;13;E13;West;E;Westerpark;DX03
+Spaarndammerbuurt Zuidoost;c;E13c;Spaarndammer- en Zeeheldenbuurt;13;E13;West;E;Westerpark;DX03
+Spaarndammerbuurt Zuidwest;d;E13d;Spaarndammer- en Zeeheldenbuurt;13;E13;West;E;Westerpark;DX03
+Spaarndammerbuurt Midden;e;E13e;Spaarndammer- en Zeeheldenbuurt;13;E13;West;E;Westerpark;DX03
+Spaarndammerbuurt Noordwest;f;E13f;Spaarndammer- en Zeeheldenbuurt;13;E13;West;E;Westerpark;DX03
+Westergasfabriek;g;E13g;Spaarndammer- en Zeeheldenbuurt;13;E13;West;E;Westerpark;DX03
+Overbraker Binnenpolder;h;E13h;Spaarndammer- en Zeeheldenbuurt;13;E13;West;E;Westerpark;DX03
+De Wittenbuurt Noord;a;E14a;Staatsliedenbuurt;14;E14;West;E;Westerpark;DX03
+De Wittenbuurt Zuid;b;E14b;Staatsliedenbuurt;14;E14;West;E;Westerpark;DX03
+Staatsliedenbuurt Noordoost;c;E14c;Staatsliedenbuurt;14;E14;West;E;Westerpark;DX03
+Fannius Scholtenbuurt;d;E14d;Staatsliedenbuurt;14;E14;West;E;Westerpark;DX03
+Westerstaatsman;e;E14e;Staatsliedenbuurt;14;E14;West;E;Westerpark;DX03
+Buyskade e.o.;f;E14f;Staatsliedenbuurt;14;E14;West;E;Westerpark;DX03
+Ecowijk;a;E15a;Centrale Markt;15;E15;West;E;Westerpark;DX03
+Markthallen;b;E15b;Centrale Markt;15;E15;West;E;Westerpark;DX03
+Bedrijvencentrum Westerkwartier;c;E15c;Centrale Markt;15;E15;West;E;Westerpark;DX03
+Marcanti;d;E15d;Centrale Markt;15;E15;West;E;Westerpark;DX03
+Frederik Hendrikbuurt Noord;a;E16a;Frederik Hendrikbuurt;16;E16;West;E;Westerpark;DX03
+Frederik Hendrikbuurt Zuidoost;b;E16b;Frederik Hendrikbuurt;16;E16;West;E;Westerpark;DX03
+Frederik Hendrikbuurt Zuidwest;c;E16c;Frederik Hendrikbuurt;16;E16;West;E;Westerpark;DX03
+Da Costabuurt Noord;a;E17a;Da Costabuurt;17;E17;West;E;Oud West / De Baarsjes;DX05
+Bellamybuurt Noord;a;E18a;Kinkerbuurt;18;E18;West;E;Oud West / De Baarsjes;DX05
+Bellamybuurt Zuid;b;E18b;Kinkerbuurt;18;E18;West;E;Oud West / De Baarsjes;DX05
+Da Costabuurt Zuid;a;E19a;Van Lennepbuurt;19;E19;West;E;Oud West / De Baarsjes;DX05
+Borgerbuurt;b;E19b;Van Lennepbuurt;19;E19;West;E;Oud West / De Baarsjes;DX05
+Lootsbuurt;c;E19c;Van Lennepbuurt;19;E19;West;E;Oud West / De Baarsjes;DX05
+Helmersbuurt Oost;a;E20a;Helmersbuurt;20;E20;West;E;Oud West / De Baarsjes;DX05
+WG-terrein;b;E20b;Helmersbuurt;20;E20;West;E;Oud West / De Baarsjes;DX05
+Cremerbuurt Oost;c;E20c;Helmersbuurt;20;E20;West;E;Oud West / De Baarsjes;DX05
+Cremerbuurt West;a;E21a;Overtoomse Sluis;21;E21;West;E;Oud West / De Baarsjes;DX05
+Vondelparkbuurt West;b;E21b;Overtoomse Sluis;21;E21;West;E;Oud West / De Baarsjes;DX05
+Vondelparkbuurt Oost;a;E22a;Vondelbuurt;22;E22;West;E;Oud West / De Baarsjes;DX05
+Vondelparkbuurt Midden;b;E22b;Vondelbuurt;22;E22;West;E;Oud West / De Baarsjes;DX05
+Woon- en Groengebied Sloterdijk;a;E36a;Sloterdijk;36;E36;West;E;Bos en Lommer;DX04
+Bedrijventerrein Sloterdijk I;b;E36b;Sloterdijk;36;E36;West;E;Bos en Lommer;DX04
+Bedrijventerrein Landlust;a;E37a;Landlust;37;E37;West;E;Bos en Lommer;DX04
+Bosleeuw;c;E37c;Landlust;37;E37;West;E;Bos en Lommer;DX04
+Landlust Zuid;d;E37d;Landlust;37;E37;West;E;Bos en Lommer;DX04
+Erasmusparkbuurt Oost;e;E37e;Landlust;37;E37;West;E;Bos en Lommer;DX04
+Gibraltarbuurt;f;E37f;Landlust;37;E37;West;E;Bos en Lommer;DX04
+Landlust Noord;g;E37g;Landlust;37;E37;West;E;Bos en Lommer;DX04
+Erasmusparkbuurt West;c;E38c;Erasmuspark;38;E38;West;E;Bos en Lommer;DX04
+Robert Scottbuurt Oost;d;E38d;Erasmuspark;38;E38;West;E;Bos en Lommer;DX04
+Robert Scottbuurt West;a;E39a;De Kolenkit;39;E39;West;E;Bos en Lommer;DX04
+Laan van Spartaan;b;E39b;De Kolenkit;39;E39;West;E;Bos en Lommer;DX04
+Kolenkitbuurt Zuid;c;E39c;De Kolenkit;39;E39;West;E;Bos en Lommer;DX04
+Kolenkitbuurt Noord;d;E39d;De Kolenkit;39;E39;West;E;Bos en Lommer;DX04
+Geuzenhofbuurt;a;E40a;Geuzenbuurt;40;E40;West;E;Oud West / De Baarsjes;DX05
+Trompbuurt;b;E40b;Geuzenbuurt;40;E40;West;E;Oud West / De Baarsjes;DX05
+Pieter van der Doesbuurt;c;E40c;Geuzenbuurt;40;E40;West;E;Oud West / De Baarsjes;DX05
+John Franklinbuurt;a;E41a;Van Galenbuurt;41;E41;West;E;Oud West / De Baarsjes;DX05
+Jan Maijenbuurt;b;E41b;Van Galenbuurt;41;E41;West;E;Oud West / De Baarsjes;DX05
+Orteliusbuurt Noord;c;E41c;Van Galenbuurt;41;E41;West;E;Oud West / De Baarsjes;DX05
+Mercatorpark;d;E41d;Van Galenbuurt;41;E41;West;E;Oud West / De Baarsjes;DX05
+Balboaplein e.o.;a;E42a;Hoofdweg e.o.;42;E42;West;E;Oud West / De Baarsjes;DX05
+Columbusplein e.o.;b;E42b;Hoofdweg e.o.;42;E42;West;E;Oud West / De Baarsjes;DX05
+Orteliusbuurt Midden;c;E42c;Hoofdweg e.o.;42;E42;West;E;Oud West / De Baarsjes;DX05
+Orteliusbuurt Zuid;d;E42d;Hoofdweg e.o.;42;E42;West;E;Oud West / De Baarsjes;DX05
+Paramariboplein e.o.;a;E43a;Westindische Buurt;43;E43;West;E;Oud West / De Baarsjes;DX05
+Postjeskade e.o.;b;E43b;Westindische Buurt;43;E43;West;E;Oud West / De Baarsjes;DX05
+Kortenaerkwartier;a;E75a;Chassébuurt;75;E75;West;E;Oud West / De Baarsjes;DX05
+Filips van Almondekwartier;b;E75b;Chassébuurt;75;E75;West;E;Oud West / De Baarsjes;DX05
+De Wester Quartier;c;E75c;Chassébuurt;75;E75;West;E;Oud West / De Baarsjes;DX05
+Van Brakelkwartier;d;E75d;Chassébuurt;75;E75;West;E;Oud West / De Baarsjes;DX05
+Sloterdijk II;a;F11a;Bedrijventerrein Sloterdijk;11;F11;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Sloterdijk III Oost;c;F11c;Bedrijventerrein Sloterdijk;11;F11;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Sloterdijk III West;d;F11d;Bedrijventerrein Sloterdijk;11;F11;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+De Heining;e;F11e;Bedrijventerrein Sloterdijk;11;F11;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Teleport;f;F11f;Bedrijventerrein Sloterdijk;11;F11;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Bretten Oost;h;F11h;Bedrijventerrein Sloterdijk;11;F11;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Bretten West;j;F11j;Bedrijventerrein Sloterdijk;11;F11;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Buurt 3;a;F76a;Slotermeer-Noordoost;76;F76;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Buurt 2;b;F76b;Slotermeer-Noordoost;76;F76;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Slotermeer Zuid;a;F77a;Slotermeer-Zuidwest;77;F77;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Noordoever Sloterplas;b;F77b;Slotermeer-Zuidwest;77;F77;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Buurt 4 Oost;c;F77c;Slotermeer-Zuidwest;77;F77;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Buurt 5 Noord;d;F77d;Slotermeer-Zuidwest;77;F77;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Sloterpark;e;F77e;Slotermeer-Zuidwest;77;F77;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Buurt 5 Zuid;f;F77f;Slotermeer-Zuidwest;77;F77;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Buurt 6;a;F78a;Geuzenveld;78;F78;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Buurt 7;b;F78b;Geuzenveld;78;F78;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Buurt 8;c;F78c;Geuzenveld;78;F78;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Buurt 9;d;F78d;Geuzenveld;78;F78;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Eendrachtspark;e;F78e;Geuzenveld;78;F78;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Osdorper Binnenpolder;a;F79a;Eendracht;79;F79;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Buurt 10;b;F79b;Eendracht;79;F79;Nieuw-West;F;Geuzenveld-Slotermeer-Sloterdijken;DX06
+Ookmeer;a;F80a;Lutkemeer/Ookmeer;80;F80;Nieuw-West;F;Osdorp;DX07
+Osdorper Bovenpolder;b;F80b;Lutkemeer/Ookmeer;80;F80;Nieuw-West;F;Osdorp;DX07
+Bedrijvenpark Lutkemeer;c;F80c;Lutkemeer/Ookmeer;80;F80;Nieuw-West;F;Osdorp;DX07
+Wildeman;a;F81a;Osdorp-Oost;81;F81;Nieuw-West;F;Osdorp;DX07
+Meer en Oever;b;F81b;Osdorp-Oost;81;F81;Nieuw-West;F;Osdorp;DX07
+Osdorpplein e.o.;c;F81c;Osdorp-Oost;81;F81;Nieuw-West;F;Osdorp;DX07
+Calandlaan/Lelylaan;d;F81d;Osdorp-Oost;81;F81;Nieuw-West;F;Osdorp;DX07
+Osdorp Zuidoost;e;F81e;Osdorp-Oost;81;F81;Nieuw-West;F;Osdorp;DX07
+Osdorp Midden Noord;a;F82a;Osdorp-Midden;82;F82;Nieuw-West;F;Osdorp;DX07
+Osdorp Midden Zuid;b;F82b;Osdorp-Midden;82;F82;Nieuw-West;F;Osdorp;DX07
+Zuidwestkwadrant Osdorp Noord;c;F82c;Osdorp-Midden;82;F82;Nieuw-West;F;Osdorp;DX07
+Zuidwestkwadrant Osdorp Zuid;d;F82d;Osdorp-Midden;82;F82;Nieuw-West;F;Osdorp;DX07
+De Punt;a;F83a;De Punt;83;F83;Nieuw-West;F;Osdorp;DX07
+Bedrijvencentrum Osdorp;b;F83b;De Punt;83;F83;Nieuw-West;F;Osdorp;DX07
+Middelveldsche Akerpolder;a;F84a;Middelveldsche Akerpolder;84;F84;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+De Aker West;b;F84b;Middelveldsche Akerpolder;84;F84;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+De Aker Oost;c;F84c;Middelveldsche Akerpolder;84;F84;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+Oostoever Sloterplas;a;F85a;Slotervaart Noord;85;F85;Nieuw-West;F;Slotervaart;DX09
+Emanuel van Meterenbuurt;b;F85b;Slotervaart Noord;85;F85;Nieuw-West;F;Slotervaart;DX09
+Jacob Geelbuurt;c;F85c;Slotervaart Noord;85;F85;Nieuw-West;F;Slotervaart;DX09
+Overtoomse Veld Noord;a;F86a;Overtoomse Veld;86;F86;Nieuw-West;F;Slotervaart;DX09
+Overtoomse Veld Zuid;b;F86b;Overtoomse Veld;86;F86;Nieuw-West;F;Slotervaart;DX09
+Rembrandtpark Noord;c;F86c;Overtoomse Veld;86;F86;Nieuw-West;F;Slotervaart;DX09
+Rembrandtpark Zuid;d;F86d;Overtoomse Veld;86;F86;Nieuw-West;F;Slotervaart;DX09
+Johan Jongkindbuurt;e;F86e;Overtoomse Veld;86;F86;Nieuw-West;F;Slotervaart;DX09
+Lucas/Andreasziekenhuis e.o.;f;F86f;Overtoomse Veld;86;F86;Nieuw-West;F;Slotervaart;DX09
+Koningin Wilhelminaplein;a;F87a;Westlandgracht;87;F87;Nieuw-West;F;Slotervaart;DX09
+Andreasterrein;b;F87b;Westlandgracht;87;F87;Nieuw-West;F;Slotervaart;DX09
+Delflandpleinbuurt Oost;c;F87c;Westlandgracht;87;F87;Nieuw-West;F;Slotervaart;DX09
+Delflandpleinbuurt West;d;F87d;Westlandgracht;87;F87;Nieuw-West;F;Slotervaart;DX09
+Riekerhaven;e;F87e;Westlandgracht;87;F87;Nieuw-West;F;Slotervaart;DX09
+Schipluidenbuurt;f;F87f;Westlandgracht;87;F87;Nieuw-West;F;Slotervaart;DX09
+Riekerpolder;a;F88a;Sloter-/Riekerpolder;88;F88;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+Park Haagseweg;b;F88b;Sloter-/Riekerpolder;88;F88;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+Nieuwe Meer;c;F88c;Sloter-/Riekerpolder;88;F88;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+Sloterweg e.o.;d;F88d;Sloter-/Riekerpolder;88;F88;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+Nieuw Sloten Noordwest;e;F88e;Sloter-/Riekerpolder;88;F88;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+Nieuw Sloten Noordoost;f;F88f;Sloter-/Riekerpolder;88;F88;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+Belgiëplein e.o.;g;F88g;Sloter-/Riekerpolder;88;F88;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+Nieuw Sloten Zuidwest;h;F88h;Sloter-/Riekerpolder;88;F88;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+Nieuw Sloten Zuidoost;i;F88i;Sloter-/Riekerpolder;88;F88;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+Dorp Sloten;j;F88j;Sloter-/Riekerpolder;88;F88;Nieuw-West;F;De Aker, Sloten en Nieuw Sloten;DX08
+Louis Chrispijnbuurt;a;F89a;Slotervaart Zuid;89;F89;Nieuw-West;F;Slotervaart;DX09
+Jacques Veldmanbuurt;b;F89b;Slotervaart Zuid;89;F89;Nieuw-West;F;Slotervaart;DX09
+Staalmanbuurt;c;F89c;Slotervaart Zuid;89;F89;Nieuw-West;F;Slotervaart;DX09
+Medisch Centrum Slotervaart;d;F89d;Slotervaart Zuid;89;F89;Nieuw-West;F;Slotervaart;DX09
+Zuidas Noord;a;K23a;Zuidas;23;K23;Zuid;K;Buitenveldert / Zuidas;DX11
+RAI;b;K23b;Zuidas;23;K23;Zuid;K;Buitenveldert / Zuidas;DX11
+VU-kwartier;c;K23c;Zuidas;23;K23;Zuid;K;Buitenveldert / Zuidas;DX11
+Zuidas Zuid;d;K23d;Zuidas;23;K23;Zuid;K;Buitenveldert / Zuidas;DX11
+Vivaldi;e;K23e;Zuidas;23;K23;Zuid;K;Buitenveldert / Zuidas;DX11
+Hemonybuurt;a;K24a;Oude Pijp;24;K24;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Gerard Doubuurt;b;K24b;Oude Pijp;24;K24;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Frans Halsbuurt;c;K24c;Oude Pijp;24;K24;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Hercules Seghersbuurt;d;K24d;Oude Pijp;24;K24;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Sarphatiparkbuurt;e;K24e;Oude Pijp;24;K24;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Willibrordusbuurt;a;K25a;Nieuwe Pijp;25;K25;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Van der Helstpleinbuurt;b;K25b;Nieuwe Pijp;25;K25;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Lizzy Ansinghbuurt;c;K25c;Nieuwe Pijp;25;K25;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Cornelis Troostbuurt;d;K25d;Nieuwe Pijp;25;K25;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Diamantbuurt;a;K26a;Zuid Pijp;26;K26;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Burgemeester Tellegenbuurt Oost;b;K26b;Zuid Pijp;26;K26;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Burgemeester Tellegenbuurt West;c;K26c;Zuid Pijp;26;K26;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Surinamepleinbuurt;a;K44a;Hoofddorppleinbuurt;44;K44;Zuid;K;Oud Zuid;DX10
+Westlandgrachtbuurt;b;K44b;Hoofddorppleinbuurt;44;K44;Zuid;K;Oud Zuid;DX10
+Aalsmeerwegbuurt West;c;K44c;Hoofddorppleinbuurt;44;K44;Zuid;K;Oud Zuid;DX10
+Aalsmeerwegbuurt Oost;d;K44d;Hoofddorppleinbuurt;44;K44;Zuid;K;Oud Zuid;DX10
+Legmeerpleinbuurt;e;K44e;Hoofddorppleinbuurt;44;K44;Zuid;K;Oud Zuid;DX10
+Bedrijventerrein Schinkel;f;K44f;Hoofddorppleinbuurt;44;K44;Zuid;K;Oud Zuid;DX10
+Schinkelbuurt Noord;a;K45a;Schinkelbuurt;45;K45;Zuid;K;Oud Zuid;DX10
+Schinkelbuurt Zuid;b;K45b;Schinkelbuurt;45;K45;Zuid;K;Oud Zuid;DX10
+Valeriusbuurt Oost;a;K46a;Willemspark;46;K46;Zuid;K;Oud Zuid;DX10
+Valeriusbuurt West;b;K46b;Willemspark;46;K46;Zuid;K;Oud Zuid;DX10
+Willemsparkbuurt Noord;c;K46c;Willemspark;46;K46;Zuid;K;Oud Zuid;DX10
+Vondelpark West;d;K46d;Willemspark;46;K46;Zuid;K;Oud Zuid;DX10
+Johannnes Vermeerbuurt;a;K47a;Museumkwartier;47;K47;Zuid;K;Oud Zuid;DX10
+P.C. Hooftbuurt;b;K47b;Museumkwartier;47;K47;Zuid;K;Oud Zuid;DX10
+Concertgebouwbuurt;c;K47c;Museumkwartier;47;K47;Zuid;K;Oud Zuid;DX10
+Cornelis Schuytbuurt;d;K47d;Museumkwartier;47;K47;Zuid;K;Oud Zuid;DX10
+Banpleinbuurt;e;K47e;Museumkwartier;47;K47;Zuid;K;Oud Zuid;DX10
+Hondecoeterbuurt;f;K47f;Museumkwartier;47;K47;Zuid;K;Oud Zuid;DX10
+Harmoniehofbuurt;g;K47g;Museumkwartier;47;K47;Zuid;K;Oud Zuid;DX10
+Museumplein;h;K47h;Museumkwartier;47;K47;Zuid;K;Oud Zuid;DX10
+Vondelpark Oost;i;K47i;Museumkwartier;47;K47;Zuid;K;Oud Zuid;DX10
+Duivelseiland;j;K47j;Museumkwartier;47;K47;Zuid;K;Oud Zuid;DX10
+Bertelmanpleinbuurt;a;K48a;Stadionbuurt;48;K48;Zuid;K;Oud Zuid;DX10
+Marathonbuurt Oost;b;K48b;Stadionbuurt;48;K48;Zuid;K;Oud Zuid;DX10
+Marathonbuurt West;c;K48c;Stadionbuurt;48;K48;Zuid;K;Oud Zuid;DX10
+Olympisch Stadion e.o.;d;K48d;Stadionbuurt;48;K48;Zuid;K;Oud Zuid;DX10
+IJsbaanpad e.o.;e;K48e;Stadionbuurt;48;K48;Zuid;K;Oud Zuid;DX10
+Van Tuyllbuurt;f;K48f;Stadionbuurt;48;K48;Zuid;K;Oud Zuid;DX10
+Diepenbrockbuurt;a;K49a;Apollobuurt;49;K49;Zuid;K;Oud Zuid;DX10
+Beethovenbuurt;b;K49b;Apollobuurt;49;K49;Zuid;K;Oud Zuid;DX10
+Hiltonbuurt;c;K49c;Apollobuurt;49;K49;Zuid;K;Oud Zuid;DX10
+Minervabuurt Noord;d;K49d;Apollobuurt;49;K49;Zuid;K;Oud Zuid;DX10
+Minervabuurt Midden;e;K49e;Apollobuurt;49;K49;Zuid;K;Oud Zuid;DX10
+Minervabuurt Zuid;f;K49f;Apollobuurt;49;K49;Zuid;K;Oud Zuid;DX10
+Wielingenbuurt;a;K52a;Scheldebuurt;52;K52;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Scheldebuurt West;b;K52b;Scheldebuurt;52;K52;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Scheldebuurt Midden;c;K52c;Scheldebuurt;52;K52;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Scheldebuurt Oost;d;K52d;Scheldebuurt;52;K52;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Veluwebuurt;g;K52g;Scheldebuurt;52;K52;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Kop Zuidas;h;K52h;Scheldebuurt;52;K52;Zuid;K;De Pijp / Rivierenbuurt;DX12
+IJselbuurt West;a;K53a;IJselbuurt;53;K53;Zuid;K;De Pijp / Rivierenbuurt;DX12
+IJselbuurt Oost;b;K53b;IJselbuurt;53;K53;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Kromme Mijdrechtbuurt;a;K54a;Rijnbuurt;54;K54;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Rijnbuurt Oost;b;K54b;Rijnbuurt;54;K54;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Rijnbuurt Midden;c;K54c;Rijnbuurt;54;K54;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Rijnbuurt West;d;K54d;Rijnbuurt;54;K54;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Zorgvlied;e;K54e;Rijnbuurt;54;K54;Zuid;K;De Pijp / Rivierenbuurt;DX12
+Prinses Irenebuurt;a;K59a;Prinses Irenebuurt e.o.;59;K59;Zuid;K;Buitenveldert / Zuidas;DX11
+Beatrixpark;b;K59b;Prinses Irenebuurt e.o.;59;K59;Zuid;K;Buitenveldert / Zuidas;DX11
+Gelderlandpleinbuurt;a;K90a;Buitenveldert-West;90;K90;Zuid;K;Buitenveldert / Zuidas;DX11
+Buitenveldert Midden Zuid;c;K90c;Buitenveldert-West;90;K90;Zuid;K;Buitenveldert / Zuidas;DX11
+Buitenveldert Zuidwest;d;K90d;Buitenveldert-West;90;K90;Zuid;K;Buitenveldert / Zuidas;DX11
+Amsterdamse Bos;e;K90e;Buitenveldert-West;90;K90;Zuid;K;Buitenveldert / Zuidas;DX11
+Buitenveldert West Midden;i;K90i;Buitenveldert-West;90;K90;Zuid;K;Buitenveldert / Zuidas;DX11
+Zuiderhof;j;K90j;Buitenveldert-West;90;K90;Zuid;K;Buitenveldert / Zuidas;DX11
+De Klenckebuurt;a;K91a;Buitenveldert-Oost;91;K91;Zuid;K;Buitenveldert / Zuidas;DX11
+Buitenveldert Oost Midden;b;K91b;Buitenveldert-Oost;91;K91;Zuid;K;Buitenveldert / Zuidas;DX11
+Buitenveldert Zuidoost;c;K91c;Buitenveldert-Oost;91;K91;Zuid;K;Buitenveldert / Zuidas;DX11
+Amstelpark;d;K91d;Buitenveldert-Oost;91;K91;Zuid;K;Buitenveldert / Zuidas;DX11
+Swammerdambuurt;a;M27a;Weesperzijde;27;M27;Oost;M;Oud-Oost;DX13
+Weesperzijde Midden/Zuid;b;M27b;Weesperzijde;27;M27;Oost;M;Oud-Oost;DX13
+Parooldriehoek;c;M27c;Weesperzijde;27;M27;Oost;M;Oud-Oost;DX13
+Oosterparkbuurt Noordwest;a;M28a;Oosterparkbuurt;28;M28;Oost;M;Oud-Oost;DX13
+Oosterpark;b;M28b;Oosterparkbuurt;28;M28;Oost;M;Oud-Oost;DX13
+Oosterparkbuurt Zuidoost;c;M28c;Oosterparkbuurt;28;M28;Oost;M;Oud-Oost;DX13
+Oosterparkbuurt Zuidwest;d;M28d;Oosterparkbuurt;28;M28;Oost;M;Oud-Oost;DX13
+Dapperbuurt Noord;a;M29a;Dapperbuurt;29;M29;Oost;M;Oud-Oost;DX13
+Dapperbuurt Zuid;b;M29b;Dapperbuurt;29;M29;Oost;M;Oud-Oost;DX13
+Oostpoort;c;M29c;Dapperbuurt;29;M29;Oost;M;Oud-Oost;DX13
+Transvaalbuurt West;a;M30a;Transvaalbuurt;30;M30;Oost;M;Oud-Oost;DX13
+Transvaalbuurt Oost;b;M30b;Transvaalbuurt;30;M30;Oost;M;Oud-Oost;DX13
+Noordwestkwadrant Indische buurt Noord;a;M31a;Indische Buurt West;31;M31;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Noordwestkwadrant Indische buurt Zuid;b;M31b;Indische Buurt West;31;M31;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Zuidwestkwadrant Indische buurt;c;M31c;Indische Buurt West;31;M31;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Noordoostkwadrant Indische buurt;a;M32a;Indische Buurt Oost;32;M32;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Zuidoostkwadrant Indische buurt;b;M32b;Indische Buurt Oost;32;M32;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Zeeburgerdijk Oost;c;M32c;Indische Buurt Oost;32;M32;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Flevopark;d;M32d;Indische Buurt Oost;32;M32;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Oostelijke Handelskade;a;M33a;Oostelijk Havengebied;33;M33;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Rietlanden;b;M33b;Oostelijk Havengebied;33;M33;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Java-eiland;c;M33c;Oostelijk Havengebied;33;M33;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+KNSM-eiland;d;M33d;Oostelijk Havengebied;33;M33;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Sporenburg;e;M33e;Oostelijk Havengebied;33;M33;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Borneo;f;M33f;Oostelijk Havengebied;33;M33;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Entrepot-Noordwest;g;M33g;Oostelijk Havengebied;33;M33;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Architectenbuurt;h;M33h;Oostelijk Havengebied;33;M33;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Bedrijvengebied Veelaan;i;M33i;Oostelijk Havengebied;33;M33;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Bedrijvengebied Cruquiusweg;j;M33j;Oostelijk Havengebied;33;M33;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Bedrijvengebied Zeeburgerkade;k;M33k;Oostelijk Havengebied;33;M33;Oost;M;Indische Buurt / Oostelijk Havengebied;DX14
+Zeeburgereiland Noordwest;a;M34a;Zeeburgereiland/Nieuwe Diep;34;M34;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Zeeburgereiland Zuidoost;c;M34c;Zeeburgereiland/Nieuwe Diep;34;M34;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Zeeburgereiland Zuidwest;d;M34d;Zeeburgereiland/Nieuwe Diep;34;M34;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Nieuwe Diep/Diemerpark;e;M34e;Zeeburgereiland/Nieuwe Diep;34;M34;Oost;M;Ijburg / Eiland Zeeburg;DX16
+RI Oost terrein;f;M34f;Zeeburgereiland/Nieuwe Diep;34;M34;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Zeeburgereiland Noordoost;g;M34g;Zeeburgereiland/Nieuwe Diep;34;M34;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Steigereiland Noord;a;M35a;IJburg West;35;M35;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Steigereiland Zuid;b;M35b;IJburg West;35;M35;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Haveneiland Zuidwest/Rieteiland West;c;M35c;IJburg West;35;M35;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Haveneiland Noordwest;e;M35e;IJburg West;35;M35;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Haveneiland Noordoost;f;M35f;IJburg West;35;M35;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Strandeiland;a;M50a;IJburg Oost;50;M50;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Middeneiland Zuidoost;b;M50b;IJburg Oost;50;M50;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Middeneiland Noordoost;c;M50c;IJburg Oost;50;M50;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Middeneiland Zuidwest;d;M50d;IJburg Oost;50;M50;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Middeneiland Noordwest;e;M50e;IJburg Oost;50;M50;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Buiteneiland;f;M50f;IJburg Oost;50;M50;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Centrumeiland;g;M50g;IJburg Oost;50;M50;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Rieteiland Oost;a;M51a;IJburg Zuid;51;M51;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Haveneiland Oost;b;M51b;IJburg Zuid;51;M51;Oost;M;Ijburg / Eiland Zeeburg;DX16
+Haveneiland Noord;c;M51c;IJburg Zuid;51;M51;Oost;M;Ijburg / Eiland Zeeburg;DX16
+De Eenhoorn;b;M55b;Frankendael;55;M55;Oost;M;Watergraafsmeer;DX15
+Julianapark;c;M55c;Frankendael;55;M55;Oost;M;Watergraafsmeer;DX15
+Don Bosco;d;M55d;Frankendael;55;M55;Oost;M;Watergraafsmeer;DX15
+Frankendael;e;M55e;Frankendael;55;M55;Oost;M;Watergraafsmeer;DX15
+Tuindorp Amstelstation;f;M55f;Frankendael;55;M55;Oost;M;Watergraafsmeer;DX15
+De Wetbuurt;g;M55g;Frankendael;55;M55;Oost;M;Watergraafsmeer;DX15
+Tuindorp Frankendael;h;M55h;Frankendael;55;M55;Oost;M;Watergraafsmeer;DX15
+Van der Kunbuurt;i;M55i;Frankendael;55;M55;Oost;M;Watergraafsmeer;DX15
+Linnaeusparkbuurt;a;M56a;Middenmeer;56;M56;Oost;M;Watergraafsmeer;DX15
+Middenmeer Noord;b;M56b;Middenmeer;56;M56;Oost;M;Watergraafsmeer;DX15
+Middenmeer Zuid;c;M56c;Middenmeer;56;M56;Oost;M;Watergraafsmeer;DX15
+Sportpark Middenmeer Zuid;d;M56d;Middenmeer;56;M56;Oost;M;Watergraafsmeer;DX15
+Sportpark Middenmeer Noord;e;M56e;Middenmeer;56;M56;Oost;M;Watergraafsmeer;DX15
+Park de Meer;f;M56f;Middenmeer;56;M56;Oost;M;Watergraafsmeer;DX15
+Sportpark Voorland;g;M56g;Middenmeer;56;M56;Oost;M;Watergraafsmeer;DX15
+Science Park Noord;h;M56h;Middenmeer;56;M56;Oost;M;Watergraafsmeer;DX15
+Science Park Zuid;i;M56i;Middenmeer;56;M56;Oost;M;Watergraafsmeer;DX15
+Betondorp;a;M57a;Betondorp;57;M57;Oost;M;Watergraafsmeer;DX15
+Nieuwe Oosterbegraafplaats;b;M57b;Betondorp;57;M57;Oost;M;Watergraafsmeer;DX15
+Drieburg;c;M57c;Betondorp;57;M57;Oost;M;Watergraafsmeer;DX15
+Weespertrekvaart;b;M58b;Omval/Overamstel;58;M58;Oost;M;Watergraafsmeer;DX15
+Amstelglorie;e;M58e;Omval/Overamstel;58;M58;Oost;M;Watergraafsmeer;DX15
+Overamstel;f;M58f;Omval/Overamstel;58;M58;Oost;M;Watergraafsmeer;DX15
+Amstelkwartier Noord;g;M58g;Omval/Overamstel;58;M58;Oost;M;Watergraafsmeer;DX15
+De Omval;h;M58h;Omval/Overamstel;58;M58;Oost;M;Watergraafsmeer;DX15
+Amstelkwartier Zuid;i;M58i;Omval/Overamstel;58;M58;Oost;M;Watergraafsmeer;DX15
+Amstelkwartier West;j;M58j;Omval/Overamstel;58;M58;Oost;M;Watergraafsmeer;DX15
+Van der Pekbuurt;a;N60a;Volewijck;60;N60;Noord;N;Oud-Noord;DX18
+Bloemenbuurt Zuid;b;N60b;Volewijck;60;N60;Noord;N;Oud-Noord;DX18
+Bloemenbuurt Noord;c;N60c;Volewijck;60;N60;Noord;N;Oud-Noord;DX18
+IJplein e.o.;a;N61a;IJplein/Vogelbuurt;61;N61;Noord;N;Oud-Noord;DX18
+Vogelbuurt Zuid;b;N61b;IJplein/Vogelbuurt;61;N61;Noord;N;Oud-Noord;DX18
+Vogelbuurt Noord;c;N61c;IJplein/Vogelbuurt;61;N61;Noord;N;Oud-Noord;DX18
+Vliegenbos;d;N61d;IJplein/Vogelbuurt;61;N61;Noord;N;Oud-Noord;DX18
+Tuindorp Nieuwendam West;a;N62a;Tuindorp Nieuwendam;62;N62;Noord;N;Oud-Noord;DX18
+Tuindorp Nieuwendam Oost;b;N62b;Tuindorp Nieuwendam;62;N62;Noord;N;Oud-Noord;DX18
+Blauwe Zand;a;N63a;Tuindorp Buiksloot;63;N63;Noord;N;Oud-Noord;DX18
+Buiksloterdijk West;a;N64a;Nieuwendammerdijk/Buiksloterdijk;64;N64;Noord;N;Oud-Noord;DX18
+Buiksloterdijk Oost;b;N64b;Nieuwendammerdijk/Buiksloterdijk;64;N64;Noord;N;Oud-Noord;DX18
+Nieuwendammerdijk West;c;N64c;Nieuwendammerdijk/Buiksloterdijk;64;N64;Noord;N;Oud-Noord;DX18
+Nieuwendammerdijk Oost;d;N64d;Nieuwendammerdijk/Buiksloterdijk;64;N64;Noord;N;Oud-Noord;DX18
+Nieuwendammerdijk Zuid;e;N64e;Nieuwendammerdijk/Buiksloterdijk;64;N64;Noord;N;Oud-Noord;DX18
+Tuindorp Oostzaan West;a;N65a;Tuindorp Oostzaan;65;N65;Noord;N;West;DX17
+Tuindorp Oostzaan Oost;b;N65b;Tuindorp Oostzaan;65;N65;Noord;N;West;DX17
+Terrasdorp;c;N65c;Tuindorp Oostzaan;65;N65;Noord;N;West;DX17
+De Bongerd;d;N65d;Tuindorp Oostzaan;65;N65;Noord;N;West;DX17
+Oostzanerdijk;b;N66b;Oostzanerwerf;66;N66;Noord;N;West;DX17
+Walvisbuurt;c;N66c;Oostzanerwerf;66;N66;Noord;N;West;DX17
+Twiske West;d;N66d;Oostzanerwerf;66;N66;Noord;N;West;DX17
+Noorder IJplas;e;N66e;Oostzanerwerf;66;N66;Noord;N;West;DX17
+Molenwijk;f;N66f;Oostzanerwerf;66;N66;Noord;N;West;DX17
+Circus/Kermisbuurt;g;N66g;Oostzanerwerf;66;N66;Noord;N;West;DX17
+Kadoelen;a;N67a;Kadoelen;67;N67;Noord;N;West;DX17
+Twiske Oost;b;N67b;Kadoelen;67;N67;Noord;N;West;DX17
+Baanakkerspark Noord;a;N68a;Waterlandpleinbuurt;68;N68;Noord;N;Oost;DX19
+Baanakkerspark Zuid;b;N68b;Waterlandpleinbuurt;68;N68;Noord;N;Oost;DX19
+Werengouw Midden;c;N68c;Waterlandpleinbuurt;68;N68;Noord;N;Oost;DX19
+Markengouw Midden;d;N68d;Waterlandpleinbuurt;68;N68;Noord;N;Oost;DX19
+Markengouw Zuid;e;N68e;Waterlandpleinbuurt;68;N68;Noord;N;Oost;DX19
+Werengouw Zuid;f;N68f;Waterlandpleinbuurt;68;N68;Noord;N;Oost;DX19
+Rode Kruisbuurt;a;N69a;Buikslotermeer;69;N69;Noord;N;Oost;DX19
+Loenermark;c;N69c;Buikslotermeer;69;N69;Noord;N;Oost;DX19
+Buikslotermeerplein;j;N69j;Buikslotermeer;69;N69;Noord;N;Oost;DX19
+Plan van Gool;k;N69k;Buikslotermeer;69;N69;Noord;N;Oost;DX19
+De Kleine Wereld;l;N69l;Buikslotermeer;69;N69;Noord;N;Oost;DX19
+Buikslotermeer Noord;m;N69m;Buikslotermeer;69;N69;Noord;N;Oost;DX19
+Banne Zuidwest;a;N70a;Banne Buiksloot;70;N70;Noord;N;West;DX17
+Banne Zuidoost;b;N70b;Banne Buiksloot;70;N70;Noord;N;West;DX17
+Banne Noordwest;c;N70c;Banne Buiksloot;70;N70;Noord;N;West;DX17
+Banne Noordoost;d;N70d;Banne Buiksloot;70;N70;Noord;N;West;DX17
+Buiksloterbreek;e;N70e;Banne Buiksloot;70;N70;Noord;N;West;DX17
+Marjoleinterrein;f;N70f;Banne Buiksloot;70;N70;Noord;N;West;DX17
+Papaverweg e.o.;c;N71c;Noordelijke IJ-oevers West;71;N71;Noord;N;Oud-Noord;DX18
+Cornelis Douwesterrein;e;N71e;Noordelijke IJ-oevers West;71;N71;Noord;N;Oud-Noord;DX18
+NDSM terrein;f;N71f;Noordelijke IJ-oevers West;71;N71;Noord;N;Oud-Noord;DX18
+Buiksloterham;g;N71g;Noordelijke IJ-oevers West;71;N71;Noord;N;Oud-Noord;DX18
+Overhoeks;h;N71h;Noordelijke IJ-oevers West;71;N71;Noord;N;Oud-Noord;DX18
+Bedrijventerrein Hamerstraat;a;N72a;Noordelijke IJ-oevers Oost;72;N72;Noord;N;Oud-Noord;DX18
+Zamenhofstraat e.o.;b;N72b;Noordelijke IJ-oevers Oost;72;N72;Noord;N;Oud-Noord;DX18
+Bedrijventerrein Nieuwendammerdijk;c;N72c;Noordelijke IJ-oevers Oost;72;N72;Noord;N;Oud-Noord;DX18
+Schellingwoude West;a;N73a;Waterland;73;N73;Noord;N;Oost;DX19
+Schellingwoude Oost;b;N73b;Waterland;73;N73;Noord;N;Oost;DX19
+Schellingwoude Noord;c;N73c;Waterland;73;N73;Noord;N;Oost;DX19
+Durgerdam;d;N73d;Waterland;73;N73;Noord;N;Oost;DX19
+Zwarte Gouw;e;N73e;Waterland;73;N73;Noord;N;Oost;DX19
+Ransdorp;f;N73f;Waterland;73;N73;Noord;N;Oost;DX19
+Holysloot;g;N73g;Waterland;73;N73;Noord;N;Oost;DX19
+Zunderdorp;h;N73h;Waterland;73;N73;Noord;N;Oost;DX19
+Noorderstrook West;i;N73i;Waterland;73;N73;Noord;N;Oost;DX19
+Noorderstrook Oost;j;N73j;Waterland;73;N73;Noord;N;Oost;DX19
+Nintemanterrein;a;N74a;Elzenhagen;74;N74;Noord;N;Oost;DX19
+Elzenhagen Zuid;b;N74b;Elzenhagen;74;N74;Noord;N;Oost;DX19
+Elzenhagen Noord;c;N74c;Elzenhagen;74;N74;Noord;N;Oost;DX19
+Hoofdcentrum Zuidoost;a;T92a;Amstel III/Bullewijk;92;T92;Zuidoost;T;Bijlmer Centrum;DX20
+Amstel III deel A/B Noord;b;T92b;Amstel III/Bullewijk;92;T92;Zuidoost;T;Bijlmer Centrum;DX20
+Amstel III deel C/D Noord;c;T92c;Amstel III/Bullewijk;92;T92;Zuidoost;T;Bijlmer Centrum;DX20
+Amstel III deel A/B Zuid;d;T92d;Amstel III/Bullewijk;92;T92;Zuidoost;T;Bijlmer Centrum;DX20
+Amstel III deel C/D Zuid;e;T92e;Amstel III/Bullewijk;92;T92;Zuidoost;T;Bijlmer Centrum;DX20
+AMC;f;T92f;Amstel III/Bullewijk;92;T92;Zuidoost;T;Bijlmer Centrum;DX20
+Hoge Dijk;g;T92g;Amstel III/Bullewijk;92;T92;Zuidoost;T;Bijlmer Centrum;DX20
+Venserpolder West;a;T93a;Bijlmer Centrum (D,F,H);93;T93;Zuidoost;T;Bijlmer Centrum;DX20
+Venserpolder Oost;b;T93b;Bijlmer Centrum (D,F,H);93;T93;Zuidoost;T;Bijlmer Centrum;DX20
+D-buurt;c;T93c;Bijlmer Centrum (D,F,H);93;T93;Zuidoost;T;Bijlmer Centrum;DX20
+F-buurt;d;T93d;Bijlmer Centrum (D,F,H);93;T93;Zuidoost;T;Bijlmer Centrum;DX20
+Amsterdamse Poort;e;T93e;Bijlmer Centrum (D,F,H);93;T93;Zuidoost;T;Bijlmer Centrum;DX20
+Hoptille;f;T93f;Bijlmer Centrum (D,F,H);93;T93;Zuidoost;T;Bijlmer Centrum;DX20
+Rechte H-buurt;g;T93g;Bijlmer Centrum (D,F,H);93;T93;Zuidoost;T;Bijlmer Centrum;DX20
+Hakfort/Huigenbos;h;T93h;Bijlmer Centrum (D,F,H);93;T93;Zuidoost;T;Bijlmer Centrum;DX20
+Huntum;i;T93i;Bijlmer Centrum (D,F,H);93;T93;Zuidoost;T;Bijlmer Centrum;DX20
+Vogeltjeswei;j;T93j;Bijlmer Centrum (D,F,H);93;T93;Zuidoost;T;Bijlmer Centrum;DX20
+Nelson Mandelapark;k;T93k;Bijlmer Centrum (D,F,H);93;T93;Zuidoost;T;Bijlmer Centrum;DX20
+E-buurt;a;T94a;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+G-buurt West;b;T94b;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+Bijlmermuseum Noord;c;T94c;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+Kortvoort;d;T94d;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+Kelbergen;e;T94e;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+K-buurt Midden;f;T94f;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+K-buurt Zuidoost;g;T94g;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+K-buurt Zuidwest;h;T94h;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+Grunder/Koningshoef;i;T94i;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+G-buurt Oost;j;T94j;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+Kantershof;k;T94k;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+Gooise Kant;l;T94l;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+G-buurt Noord;m;T94m;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+Bijlmermuseum Zuid;n;T94n;Bijlmer Oost (E,G,K);94;T94;Zuidoost;T;Bijlmer Oost;DX21
+L-buurt;a;T95a;Nellestein;95;T95;Zuidoost;T;Gaasperdam / Driemond;DX22
+Gaasperpark;b;T95b;Nellestein;95;T95;Zuidoost;T;Gaasperdam / Driemond;DX22
+Gaasperplas;c;T95c;Nellestein;95;T95;Zuidoost;T;Gaasperdam / Driemond;DX22
+Holendrecht West;a;T96a;Holendrecht/Reigersbos;96;T96;Zuidoost;T;Gaasperdam / Driemond;DX22
+Reigersbos Noord;b;T96b;Holendrecht/Reigersbos;96;T96;Zuidoost;T;Gaasperdam / Driemond;DX22
+Holendrecht Oost;c;T96c;Holendrecht/Reigersbos;96;T96;Zuidoost;T;Gaasperdam / Driemond;DX22
+Gaasperdam Noord;d;T96d;Holendrecht/Reigersbos;96;T96;Zuidoost;T;Gaasperdam / Driemond;DX22
+Gaasperdam Zuid;e;T96e;Holendrecht/Reigersbos;96;T96;Zuidoost;T;Gaasperdam / Driemond;DX22
+Reigersbos Midden;f;T96f;Holendrecht/Reigersbos;96;T96;Zuidoost;T;Gaasperdam / Driemond;DX22
+Reigersbos Zuid;g;T96g;Holendrecht/Reigersbos;96;T96;Zuidoost;T;Gaasperdam / Driemond;DX22
+Gein Noordwest;a;T97a;Gein;97;T97;Zuidoost;T;Gaasperdam / Driemond;DX22
+Gein Zuidwest;b;T97b;Gein;97;T97;Zuidoost;T;Gaasperdam / Driemond;DX22
+Gein Noordoost;c;T97c;Gein;97;T97;Zuidoost;T;Gaasperdam / Driemond;DX22
+Gein Zuidoost;d;T97d;Gein;97;T97;Zuidoost;T;Gaasperdam / Driemond;DX22
+Dorp Driemond;a;T98a;Driemond;98;T98;Zuidoost;T;Gaasperdam / Driemond;DX22
+Landelijk gebied Driemond;b;T98b;Driemond;98;T98;Zuidoost;T;Gaasperdam / Driemond;DX22

@@ -116,10 +116,6 @@ export default {
     }
   }
 }
-// TODO: 1) move map drawing to its own function or method
-//       2) watch data and geojson variables, trigger map redraw when both are not null
-//       3) we probably want SVG element before map appears
-//       4) see whether we can scope the styles somehow (D3 is ignorant of this)
 </script>
 
 <style>

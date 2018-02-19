@@ -1,5 +1,6 @@
 import util from './util'
 import Vue from 'vue'
+import * as d3 from 'd3'
 
 function remapGeoJSONLabel (geojson, labelProperty) {
   // overwrite all properties of a GeoJSON, keep only the area label and call it label
@@ -92,15 +93,86 @@ async function extractFeature (url, labelProperty) {
   return feature
 }
 
+// WFS handling (needs extra hardcoded code mapping because of inconsistency between gebieden
+// API, BBGA API and gebieden WFS)
+
 async function loadGeoJSONFromWFS (areaType) {
+  if (areaType === 'wijk') {
+    areaType = 'buurtcombinatie'
+  }
   let url = `https://map.data.amsterdam.nl/maps/gebieden?request=getfeature&version=1.1.0&service=wfs&outputformat=geojson&typename=${areaType}`
   let response = await Vue.axios.get(url)
-  for (let feature of response.data.features) {
-    // TODO: check that properties.code is always appropriate (it is not for the API version)
-    feature.properties.label = feature.properties.vollcode
-  }
 
-  return response.data
+  // naming is inconsistent with BBGA, hence:
+  const areaCodes = await loadExtraCodeMapping()
+  let features = null
+
+  if (areaType === 'buurt') {
+    let mapping = new Map(areaCodes.map(
+      d => [d.BRT_VOLLCODE.slice(1), d.BRT_VOLLCODE]
+    ))
+
+    features = response.data.features.map(
+      function (feature) {
+        return {
+          type: 'Feature',
+          properties: {
+            label: mapping.get(feature.properties.code)
+          },
+          geometry: feature.geometry
+        }
+      }
+    )
+  } else if (areaType === 'buurtcombinatie') {
+    features = response.data.features.map(
+      function (feature) {
+        return {
+          type: 'Feature',
+          properties: {
+            label: feature.properties.vollcode
+          },
+          geometry: feature.geometry
+        }
+      }
+    )
+  } else if (areaType === 'stadsdeel') {
+    features = response.data.features.map(
+      function (feature) {
+        return {
+          type: 'Feature',
+          properties: {
+            label: feature.properties.code
+          },
+          geometry: feature.geometry
+        }
+      }
+    )
+  } else if (areaType === 'gebiedsgerichtwerken') {
+    features = response.data.features.map(
+      function (feature) {
+        return {
+          type: 'Feature',
+          properties: {
+            label: feature.properties.code
+          },
+          geometry: feature.geometry
+        }
+      }
+    )
+  }
+  // TODO: also implement this custom mapping for stadsdeel, gebiedsgerichtwerken and wijk
+  return {
+    type: 'FeatureCollection',
+    features: features
+  }
+}
+
+async function loadExtraCodeMapping () {
+  let url = '/static/brt-bce-sdl-ggw.csv' // provided by Rob K.
+  let response = await Vue.axios.get(url)
+  let customFormat = d3.dsvFormat(';')
+
+  return customFormat.parse(response.data)
 }
 
 // Functions that deal with BBGA data
@@ -125,5 +197,6 @@ export default {
   remapGeoJSONLabel,
   loadGeoJSONFromAPI,
   loadGeoJSONFromWFS,
-  loadBBGANumbers
+  loadBBGANumbers,
+  loadExtraCodeMapping
 }
