@@ -38,7 +38,6 @@ function generateCartesianProjection (width, height, geojson) {
 
 function generateColorScale (geojson, interpolator) {
   // Assumes the geojson data has a property value that is to be color coded
-  console.log('no. args', arguments.length)
   let extent = d3.extent(geojson.features, function (feature) {
     return feature.properties.value
   })

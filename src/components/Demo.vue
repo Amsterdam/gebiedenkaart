@@ -16,7 +16,7 @@ export default {
     }
   },
   async mounted () {
-    let geojson = await geojsonHelpers.loadGeoJSONFromWFS('gebiedsgerichtwerken')
+    let geojson = await geojsonHelpers.loadGeoJSONFromWFS('buurt')
     // Below you can choose from 'buurt', 'wijk', 'gebiedsgerichtwerken', 'stadsdeel'
     /* let geojson = await geojsonHelpers.loadGeoJSONFromAPI('stadsdeel') */
     let bbga = await geojsonHelpers.loadBBGANumbers('BEVSUR_P', 2017)
