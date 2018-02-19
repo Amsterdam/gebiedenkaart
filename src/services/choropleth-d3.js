@@ -1,6 +1,9 @@
 import geojsonExtent from '@mapbox/geojson-extent'
 import * as d3 from 'd3'
 
+// TODO: accept colorscale (domain should be controlled from outside of module)
+// TODO: draw a legend
+
 // For RD new coordinates (EPSG:28992) we use a Cartesian projection
 function generateCartesianProjection (width, height, geojson) {
   let extent = geojsonExtent(geojson) // WSEN
@@ -33,15 +36,14 @@ function generateCartesianProjection (width, height, geojson) {
   return cartesianProjection
 }
 
-// Generate a color scale
-function generateColorScale (data) {
-  // assumes data is an array of 2 element arrays with value second entry the value
-  let extent = d3.extent(data, function (d) {
-    return d[1]
+function generateColorScale (geojson, interpolator) {
+  // Assumes the geojson data has a property value that is to be color coded
+  console.log('no. args', arguments.length)
+  let extent = d3.extent(geojson.features, function (feature) {
+    return feature.properties.value
   })
 
-  console.log('Colorscale --- Extent of data is', extent)
-  let colorScale = d3.scaleSequential(d3.interpolateViridis)
+  let colorScale = d3.scaleSequential(interpolator)
     .domain(extent)
 
   return colorScale
@@ -49,72 +51,22 @@ function generateColorScale (data) {
 
 // See: https://bost.ocks.org/mike/chart/ for this style of reusable charts
 function baseChoropleth () {
-  let width = 600 // consider getting this from the SVG element properties
-  let height = 600
   let projection = null // should be d3 projection
-  let label = null // should be accessor function
   // See: https://github.com/d3/d3-scale-chromatic
-  let interpolator = null // should be a d3 color interpolator from d3-chromatic
-  let data = null // should be array of two-element arrays (label, value)
-  let label2value = null
+  let colorScale = function (d) { return 'none' }
 
   function my (selection) {
     // are the properties we need set?
-    console.assert(label !== null, 'Provide an accessor function for the field containing the geometry label.')
-    console.assert(interpolator !== null, 'Provide an d3-chromatic interpolator function.')
-    console.assert(data !== null, 'Provide data to color code')
     console.assert(projection !== null, 'We need projection')
 
     // d3 drawing stuff
     let pathGenerator = d3.geoPath()
       .projection(projection)
-    let colorScale = d3.scaleSequential(interpolator)
-      // .domain(d3.extent(data, d => d[1]))
-      .domain([0, 20])
 
-    // consider removing the old chart first (TBD / TODO)
-    // debugger
     selection.enter().append('path')
-      .attr('fill', function (d) {
-        // label(d) -> extract label from geojson feature
-        // label2value(label) -> find value for given feature
-        // colorScale(value) -> get a color we can use for the fill attribute of path elements
-        let value = label2value.get(label(d))
-        console.log('Label, value, color', label(d), value, colorScale(value))
-        return colorScale(value)
-      })
-      .attr('stroke', 'black')
+      .attr('fill', d => colorScale(d.properties.value) || 'none') // TODO: check!
+      .attr('stroke', 'gray')
       .attr('d', pathGenerator)
-  }
-
-  // getters and setters for various parameters
-  my.width = function (value) {
-    if (arguments.length) {
-      width = value
-      return my
-    } else {
-      return width
-    }
-  }
-
-  my.height = function (value) {
-    if (arguments.length) {
-      height = value
-      return my
-    } else {
-      return height
-    }
-  }
-
-  my.label = function (value) {
-    console.log('LABEL ACCESSOR SHOULD BE SET')
-    if (arguments.length) {
-      label = value
-      console.log('ARGHHH', label)
-      return my
-    } else {
-      return label
-    }
   }
 
   my.projection = function (value) {
@@ -126,22 +78,12 @@ function baseChoropleth () {
     }
   }
 
-  my.interpolator = function (value) {
+  my.colorScale = function (value) {
     if (arguments.length) {
-      interpolator = value
+      colorScale = value
       return my
     } else {
-      return interpolator
-    }
-  }
-
-  my.data = function (value) {
-    if (arguments.length) {
-      data = value
-      label2value = new Map(data)
-      return my
-    } else {
-      return data
+      return colorScale
     }
   }
 

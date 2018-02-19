@@ -6,24 +6,29 @@
 // TODO: Make width and height parametrizable.
 // TODO: See about responsiveness
 // NOTE: Assumes RD new coordinate system (EPSG:28992) this
-// is what api.data.amsterdam.nl/gebieden/* endpoints provide.
 import * as d3 from 'd3'
 import ch from '../services/choropleth-d3'
 
 const width = 600
 const height = 600
 
+console.log('Hello something is working i presume?!')
+
 export default {
   props: [
-    'geojson',
-    'data'
+    'geojson'
   ],
   methods: {
     // check that we can ensure the DOM is ready
+    created () {
+      console.log('Choropleth2 is active')
+    },
+    mounted () {
+      // assumes v-if is used to only mount when geojson is available
+      console.log('mounted')
+    },
     drawMap () {
-      console.log('Data should be here:', this.geojson.features, this.data)
-      console.assert(this.geojson, 'GeoJSON data needed for map')
-      console.assert(this.data.length, 'Data needed')
+      console.assert(this.geojson.features, 'GeoJSON data needed for map')
 
       let svg = d3.select(this.$el).append('svg')
         .attr('width', width)
@@ -33,43 +38,30 @@ export default {
       let cartesianProjection = ch.generateCartesianProjection(
         width, height, this.geojson
       )
+      let colorScale = ch.generateColorScale(this.geojson, d3.interpolateViridis)
 
       // draw map
       let selection = svg.selectAll('path.borders')
-        .data(this.geojson.features)
+        .data(this.geojson.features, d => d.properties.label)
 
       let choropleth = ch.baseChoropleth()
         .projection(cartesianProjection)
-        .data(this.data) // stupid naming!
-        .label(d => d.properties.vollcode)
-        .interpolator(d3.interpolateViridis)
+        .colorScale(colorScale)
 
       choropleth(selection)
     }
   },
   watch: {
     geojson (to, from) {
-      if (to.features.length) {
-        if (this.data) {
-          console.log('We have geojson and data.')
-          this.drawMap()
-        }
-      }
-    },
-    data (to, from) {
-      if (to.length) {
-        if (this.geojson) {
-          console.log('We have data and geojson.')
+      // trigger initial draw only when data is available
+      if (to) {
+        if (to) {
           this.drawMap()
         }
       }
     }
   }
 }
-// TODO: 1) move map drawing to its own function or method
-//       2) watch data and geojson variables, trigger map redraw when both are not null
-//       3) we probably want SVG element before map appears
-//       4) see whether we can scope the styles somehow (D3 is ignorant of this)
 </script>
 
 <style>
