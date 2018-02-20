@@ -1,7 +1,6 @@
 import geojsonExtent from '@mapbox/geojson-extent'
 import * as d3 from 'd3'
 
-// TODO: accept colorscale (domain should be controlled from outside of module)
 // TODO: draw a legend
 
 // For RD new coordinates (EPSG:28992) we use a Cartesian projection
@@ -52,7 +51,7 @@ function generateColorScale (geojson, interpolator) {
 function baseChoropleth () {
   let projection = null // should be d3 projection
   // See: https://github.com/d3/d3-scale-chromatic
-  let colorScale = function (d) { return 'none' }
+  let colorScale = function (d) { return 'none' } // color nothing if not provided
 
   function my (selection) {
     console.assert(projection !== null, 'We need projection')

@@ -160,7 +160,6 @@ async function loadGeoJSONFromWFS (areaType) {
       }
     )
   }
-  // TODO: also implement this custom mapping for stadsdeel, gebiedsgerichtwerken and wijk
   return {
     type: 'FeatureCollection',
     features: features

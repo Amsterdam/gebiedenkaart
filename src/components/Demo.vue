@@ -16,8 +16,9 @@ export default {
     }
   },
   async mounted () {
-    let geojson = await geojsonHelpers.loadGeoJSONFromWFS('buurt')
     // Below you can choose from 'buurt', 'wijk', 'gebiedsgerichtwerken', 'stadsdeel'
+    let geojson = await geojsonHelpers.loadGeoJSONFromWFS('buurt')
+    // It is also possible to use the gebieden API to retrieve geometry, uncomment next line:
     /* let geojson = await geojsonHelpers.loadGeoJSONFromAPI('stadsdeel') */
     let bbga = await geojsonHelpers.loadBBGANumbers('BEVSUR_P', 2017)
     geojsonHelpers.addDataToGeoJSON(geojson, {data: bbga})

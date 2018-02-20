@@ -12,19 +12,15 @@ import ch from '../services/choropleth-d3'
 const width = 600
 const height = 600
 
-console.log('Hello something is working i presume?!')
-
 export default {
   props: [
     'geojson'
   ],
   methods: {
-    // check that we can ensure the DOM is ready
     created () {
       console.log('Choropleth2 is active')
     },
     mounted () {
-      // assumes v-if is used to only mount when geojson is available
       console.log('mounted')
     },
     drawMap () {
@@ -54,6 +50,7 @@ export default {
   watch: {
     geojson (to, from) {
       // trigger initial draw only when data is available
+      // TODO: check for DOM as well?
       if (to) {
         if (to) {
           this.drawMap()
