@@ -55,7 +55,6 @@ function baseChoropleth () {
   let colorScale = function (d) { return 'none' }
 
   function my (selection) {
-    // are the properties we need set?
     console.assert(projection !== null, 'We need projection')
 
     // d3 drawing stuff
@@ -63,7 +62,7 @@ function baseChoropleth () {
       .projection(projection)
 
     selection.enter().append('path')
-      .attr('fill', d => colorScale(d.properties.value) || 'none') // TODO: check!
+      .attr('fill', d => colorScale(d.properties.value) || 'none')
       .attr('stroke', 'gray')
       .attr('d', pathGenerator)
   }
