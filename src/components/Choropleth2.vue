@@ -24,6 +24,9 @@ export default {
       console.log('mounted')
     },
     drawMap () {
+      if (!this.geojson) {
+        return
+      }
       console.assert(this.geojson.features, 'GeoJSON data needed for map')
 
       let svg = d3.select(this.$el).append('svg')
@@ -48,14 +51,8 @@ export default {
     }
   },
   watch: {
-    geojson (to, from) {
-      // trigger initial draw only when data is available
-      // TODO: check for DOM as well?
-      if (to) {
-        if (to) {
-          this.drawMap()
-        }
-      }
+    geojson () {
+      this.drawMap() // Let drawmap check if it has something to draw
     }
   }
 }

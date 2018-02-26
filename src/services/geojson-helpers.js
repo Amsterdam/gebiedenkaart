@@ -5,12 +5,10 @@ import * as d3 from 'd3'
 function remapGeoJSONLabel (geojson, labelProperty) {
   // overwrite all properties of a GeoJSON, keep only the area label and call it label
   debugger
-  geojson = geojson.map(
-    function (d) {
-      d.properties = {label: d.properties[labelProperty]}
-      return d
-    }
-  )
+  geojson = geojson.map(d => ({
+    ...d,
+    properties: {label: d.properties[labelProperty]}
+  }))
   debugger
 }
 
@@ -22,21 +20,17 @@ function addDataToGeoJSON (geojson, extra) {
 
   if (extra.hasOwnProperty('data')) {
     let dataMap = new Map(extra.data)
-    geojson.features = geojson.features.map(
-      function (feature) {
-        feature.properties.value = dataMap.get(feature.properties.label)
-        return feature
-      }
-    )
+    geojson.features = geojson.features.map(feature => {
+      feature.properties.value = dataMap.get(feature.properties.label)
+      return feature
+    })
   }
   if (extra.hasOwnProperty('links')) {
     let dataMap = new Map(extra.links)
-    geojson.features = geojson.features.map(
-      function (feature) {
-        feature.properties.link = dataMap.get(feature.properties.label)
-        return feature
-      }
-    )
+    geojson.features = geojson.features.map(feature => {
+      feature.properties.link = dataMap.get(feature.properties.label)
+      return feature
+    })
   }
   return geojson
 }
@@ -69,28 +63,23 @@ async function loadGeoJSONFromAPI (areaType) {
     d => extractFeature(d._links.self.href, labelProperty)
   )
 
-  let awaitedFeatures = await Promise.all(promisedFeatures)
-
-  let geojson = {
+  return {
     type: 'FeatureCollection',
-    features: awaitedFeatures
+    features: await Promise.all(promisedFeatures)
   }
-
-  return geojson
 }
 
 async function extractFeature (url, labelProperty) {
   // Uses gebieden API.
   // Extract a GeoJSON feature from area detail page.
-  let results = await util.readData(url)
-  let feature = {
+  const results = await util.readData(url)
+  return {
     type: 'Feature',
     properties: {
       label: results[labelProperty]
     },
     geometry: results.geometrie
   }
-  return feature
 }
 
 // WFS handling (needs extra hardcoded code mapping because of inconsistency between gebieden
@@ -100,14 +89,15 @@ async function loadGeoJSONFromWFS (areaType) {
   if (areaType === 'wijk') {
     areaType = 'buurtcombinatie'
   }
-  let url = `https://map.data.amsterdam.nl/maps/gebieden?request=getfeature&version=1.1.0&service=wfs&outputformat=geojson&typename=${areaType}`
-  let response = await Vue.axios.get(url)
+  const url = `https://map.data.amsterdam.nl/maps/gebieden?request=getfeature&version=1.1.0&service=wfs&outputformat=geojson&typename=${areaType}`
+  const response = await Vue.axios.get(url)
 
   // naming is inconsistent with BBGA, hence:
   const areaCodes = await loadExtraCodeMapping()
   let features = null
 
   if (areaType === 'buurt') {
+    // fix naming inconsistency
     let mapping = new Map(areaCodes.map(
       d => [d.BRT_VOLLCODE.slice(1), d.BRT_VOLLCODE]
     ))
@@ -123,43 +113,20 @@ async function loadGeoJSONFromWFS (areaType) {
         }
       }
     )
-  } else if (areaType === 'buurtcombinatie') {
+  } else {
     features = response.data.features.map(
       function (feature) {
         return {
           type: 'Feature',
           properties: {
-            label: feature.properties.vollcode
-          },
-          geometry: feature.geometry
-        }
-      }
-    )
-  } else if (areaType === 'stadsdeel') {
-    features = response.data.features.map(
-      function (feature) {
-        return {
-          type: 'Feature',
-          properties: {
-            label: feature.properties.code
-          },
-          geometry: feature.geometry
-        }
-      }
-    )
-  } else if (areaType === 'gebiedsgerichtwerken') {
-    features = response.data.features.map(
-      function (feature) {
-        return {
-          type: 'Feature',
-          properties: {
-            label: feature.properties.code
+            label: feature.properties.vollcode || feature.properties.code
           },
           geometry: feature.geometry
         }
       }
     )
   }
+
   return {
     type: 'FeatureCollection',
     features: features

@@ -5,23 +5,23 @@ import * as d3 from 'd3'
 
 // For RD new coordinates (EPSG:28992) we use a Cartesian projection
 function generateCartesianProjection (width, height, geojson) {
-  let extent = geojsonExtent(geojson) // WSEN
-  let wScale = width / (extent[2] - extent[0])
-  let hScale = height / (extent[3] - extent[1])
+  let [W, S, E, N] = geojsonExtent(geojson) // WSEN
+  let wScale = width / (E - W)
+  let hScale = height / (N - S)
 
-  let x = d3.scaleLinear().domain([extent[0], extent[2]])
-  let y = d3.scaleLinear().domain([extent[1], extent[3]])
+  let x = d3.scaleLinear().domain([W, E])
+  let y = d3.scaleLinear().domain([S, N])
 
   if (wScale < hScale) {
     x.range([0, width])
     // y should use same scale factor as x, calculate the relevant range given that constraint
-    let newHeight = wScale * (extent[3] - extent[1])
+    let newHeight = wScale * (N - S)
     let offset = (height - newHeight) / 2
     y.range([height - offset, offset])
   } else {
     y.range([height, 0])
     // x should use same scale factor as y, calculate the relevant range given that constraint
-    let newWidth = Math.abs(hScale * (extent[2] - extent[0]))
+    let newWidth = Math.abs(hScale * (E - W))
     let offset = (width - newWidth) / 2
     x.range([offset, width - offset])
   }
@@ -51,7 +51,8 @@ function generateColorScale (geojson, interpolator) {
 function baseChoropleth () {
   let projection = null // should be d3 projection
   // See: https://github.com/d3/d3-scale-chromatic
-  let colorScale = function (d) { return 'none' } // color nothing if not provided
+  const COLOR_NOTHING = 'none'
+  let colorScale = d => COLOR_NOTHING // color nothing if not provided
 
   function my (selection) {
     console.assert(projection !== null, 'We need projection')
@@ -61,7 +62,7 @@ function baseChoropleth () {
       .projection(projection)
 
     selection.enter().append('path')
-      .attr('fill', d => colorScale(d.properties.value) || 'none')
+      .attr('fill', d => colorScale(d.properties.value) || COLOR_NOTHING)
       .attr('stroke', 'gray')
       .attr('d', pathGenerator)
   }
